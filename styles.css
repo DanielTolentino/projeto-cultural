@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-image: url("images/header-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: contain;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+#events .evento-imagem {
+  width: 100%; /* A largura ocupará 100% do contêiner */
+  max-width: 500px; /* Tamanho máximo para a imagem */
+  height: auto;
+  display: block;
+  margin: 10px auto; /* Centralizando a imagem */
+}
+
+#events .list-group-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#contato {
+  /* Seus estilos existentes para a seção */
+
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    /* Estilos a serem aplicados quando a largura da tela for 768px ou menos */
+    /* Adicione seus estilos responsivos aqui */
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  @media (max-width: 480px) {
+    /* Estilos a serem aplicados quando a largura da tela for 480px ou menos */
+    /* Adicione seus estilos responsivos aqui */
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+.header-container {
+  position: relative;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  top: 20px;
+  left: 20px;
+  max-width: 150px;
+  height: auto;
+}
+
+.header-content {
+  padding-bottom: 80px; /* Altura da imagem + espaçamento desejado */
+}
